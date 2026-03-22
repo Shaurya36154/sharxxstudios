@@ -66,9 +66,9 @@ function Home() {
       <section className="border-y border-white/10 bg-white/[0.02]">
         <div className="max-w-7xl mx-auto px-6 md:px-16 py-8 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: '10+', label: 'Projects Delivered' },
-            { number: '20+', label: 'Happy Clients' },
-            { number: '2', label: 'Years Experience' },
+            { number: '20+', label: 'Projects Delivered' },
+            { number: '19+', label: 'Happy Clients' },
+            { number: '3', label: 'Years Experience' },
             { number: '∞', label: 'Frames of Passion' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
